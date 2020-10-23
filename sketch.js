@@ -10,7 +10,7 @@ function draw() {
   moverect.y = mouseY;
   if(abs(fixrect.x-moverect.x) < fixrect.width/2 + moverect.width/2 && 
      abs(fixrect.y-moverect.y) < fixrect.height/2 + moverect.height/2) {
-    moveresct.shapeColor = "red";
+    moverect.shapeColor = "red";
     fixrect.shapeColor = "red";
   }  else{
     moverect.shapeColor = "blue";
